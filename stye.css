@@ -1,0 +1,91 @@
+body{
+    background-color: #DEE9FF;
+    color: #FFFFFF;
+    
+}
+
+.corpo{
+
+    margin-left: 520px;
+    margin-top: 143px;
+    width: 550px;
+    height: 386 px;
+    background-color: #7293D2;
+    padding: 5rem;
+    border-radius: 35px;
+}
+h2{
+    margin-left: 145px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFF1DF;
+}
+
+label{
+    font-family: Muli;
+    font-size: 23px;
+    margin-top: -20px;
+    margin-left: 150px;
+    color: #FFF1DF;
+
+}
+
+input{
+    font-family: Muli;
+    font-size: 23px;
+    margin-left: 75px;
+    width: 402px;
+    height: 48px;
+    background-color: #FFF1DF;
+    border-radius: 20px;
+}
+
+.butao{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 26px;;
+    font-weight: 800;
+    color: #FFF1DF;
+    margin-left: 175px;
+    width: 217px;
+    height: 50px;
+    background-color: #0D3C97;
+    border-radius: 10px;
+}
+
+.box1{
+    margin-left: 620px;
+    margin-top: 50px;
+    width: 520px;
+    height: 130px;
+    background-color: #7293D2;
+    border-radius: 25px;
+}
+
+.seuimc{
+    margin-left: 40px;
+    align-content: center;
+    justify-content: center;
+
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFF1DF;
+}
+
+.box2{
+    margin-left: 275px;
+    margin-top: -30px;
+    width: 220px;
+    height: 100px;
+    background-color: #0D3C97;
+    border-radius: 20px;
+}
+
+.respostaimc{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 26px;;
+    font-weight: 800;
+    color: #FFF1DF;
+    
+}
