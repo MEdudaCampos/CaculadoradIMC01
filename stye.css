@@ -5,6 +5,7 @@ body{
 }
 
 .corpo{
+    
 
     margin-left: 520px;
     margin-top: 143px;
@@ -63,10 +64,11 @@ input{
 }
 
 .seuimc{
-    margin-left: 40px;
+    padding: 50px;
+    margin-left: -25px;
     align-content: center;
     justify-content: center;
-
+    
     font-family: 'League Spartan', sans-serif;
     font-size: 50px;
     font-weight: 800;
@@ -75,17 +77,40 @@ input{
 
 .box2{
     margin-left: 275px;
-    margin-top: -30px;
+    margin-top: -130px;
     width: 220px;
     height: 100px;
     background-color: #0D3C97;
     border-radius: 20px;
+    position: relative;
 }
 
 .respostaimc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -40px;
     font-family: 'League Spartan', sans-serif;
-    font-size: 26px;;
+    font-size: 65px;;
     font-weight: 800;
     color: #FFF1DF;
     
+}
+
+.tabelaresultado{
+    text-align: center;
+    margin-top: 15px;
+    color: #0D3C97;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.clasificacao{
+    text-align: center;
+    margin-top: 30px;
+    color: #0D3C97;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
 }
