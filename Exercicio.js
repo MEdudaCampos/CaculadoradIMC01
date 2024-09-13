@@ -4,45 +4,45 @@ const alturaemCM = document.getElementById('alturaResposta')
 
 
 
-btn.addEventListener('click', function(){
-     peso = Number(pesoemKG.value)
-     altura = Number(alturaemCM.value)
-     let resposta = peso / (altura* altura)
+btn.addEventListener('click', function () {
+    peso = Number(pesoemKG.value)
+    altura = Number(alturaemCM.value)
+    let resposta = peso / (altura * altura)
 
-    if(peso === "" || isNaN){
+    if (peso === "" || isNaN) {
         document.getElementById("respostafinal").innerHTML = (`Erro`)
     }
 
     document.getElementById("respostafinal").innerHTML = (`${Math.floor(resposta)}`)
 
-    if (resposta > 40) {
-        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau III`)
-    }
-    else if (resposta > 35 && resposta < 40){
-        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau II`)
-    }
-    else if (resposta > 30 && resposta < 34.9){
-        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau I`)
-    }
-    else if (resposta > 25 && resposta < 29,9){
-        document.getElementById("tabelaresultado").innerHTML = (`Acima do peso`)
-    }
-    
-    else if (resposta > 18.5 && resposta < 24.9){
+    if (resposta > 18.5 && resposta < 24.9) {
         document.getElementById("tabelaresultado").innerHTML = (`Peso normal`)
     }
-    
-    else if (resposta > 17 && resposta < 18.4){
+
+    else if (resposta > 17 && resposta < 18.4) {
         document.getElementById("tabelaresultado").innerHTML = (`Abaixo do peso`)
     }
-    else if (resposta < 16.9){
+    else if (resposta < 16.9) {
         document.getElementById("tabelaresultado").innerHTML = (`Muito abaixo do peso`)
     }
-    else{
+    else if (resposta > 40) {
+        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau III`)
+    }
+    else if (resposta > 35 && resposta < 40) {
+        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau II`)
+    }
+    else if (resposta > 30 && resposta < 34.9) {
+        document.getElementById("tabelaresultado").innerHTML = (`Obesidade grau I`)
+    }
+    else if (resposta > 25 && resposta < 29, 9) {
+        document.getElementById("tabelaresultado").innerHTML = (`Acima do peso`)
+    }
+    else {
         document.getElementById("tabelaresultado").innerHTML = (`Erro`)
 
     }
- 
+
+
 })
 
 
